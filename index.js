@@ -2943,7 +2943,4 @@ app.post("/maintenance/register", function(req, res) {
         `);
     });
 });
-
-app.listen(3000, () => {
-    console.log('Servidor rodando na url http://localhost:3000');
-});
+module.exports = app;
